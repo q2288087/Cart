@@ -1,0 +1,23 @@
+.a{
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.b{
+    background-color: brown;
+    width: 100px    ;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.c{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}

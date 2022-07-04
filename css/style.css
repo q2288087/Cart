@@ -1,0 +1,228 @@
+body{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li a{
+    font-size: 22px;
+  }
+
+.index{
+    margin: 0 auto;
+    width: 60%;
+}
+
+/* header */
+a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .main-header {
+    width: 100%;
+    background-color: #333;
+    margin-top: -0.5em;
+  }
+  
+  .container {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main-header h1 {
+    line-height: 80px;
+    margin: 0 15px;
+  }
+  
+  .main-menu {
+    display: flex;
+  }
+  
+  .main-menu li {
+    position: relative;
+    transition: .5s;
+  }
+  
+  .main-menu li a {
+    padding: 0 15px;
+    line-height: 80px;
+  }
+  
+  
+  .main-menu li:hover {
+    background-color: #000;
+  }
+/* header */
+
+#bigBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    width: 100%;
+}
+
+.class-head{
+  text-align: center;
+  letter-spacing: 2px;
+}
+/* form */
+.inputBox{
+  margin-top: 20px;
+  width: 25%;
+  height: 50%;
+  padding: 20px; 
+  background-color: #FCFCFC;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginform{
+    width: 90%;
+}
+
+.inputText{
+    margin-bottom: 10px;
+}
+
+label {
+  color: black;
+  line-height: 2;
+}
+
+input {
+  outline: none;
+  padding: 7px 0;
+  padding-left: 12px;
+  width: 95%;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+/* form */
+
+/* button */
+button {
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  backdrop-filter: blur(5px);
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: whitesmoke;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  background-color: #00BB00;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+.inputButton{
+    width: 100%;
+}
+button:hover,
+button:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+button:hover {
+    transform: translateY(-1px);
+}
+
+button:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+/* button */
+.forgot-pwd{
+  float: right;
+  font-size: 12px;
+  color:#196ddb;
+  padding-top: 9px;
+}
+
+.account-error {
+  text-align: center;
+  width: 25%;
+  height: 10px;
+  padding: 20px;
+  background-color: #ffebe9;
+  border-radius: 10px;
+  border: 1px solid #ffc0bf;
+  box-shadow: 0 0 10px #ffebe9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search{
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 40px;
+}
+
+/* shopping cart */
+
+
+img{
+  max-width: 100%;
+  height: auto;
+  background: lightblue;
+  background: radial-gradient(white 30%, lightblue 70%);
+}
+
+.fa-star,
+.fa-star-half{
+  color: yellowgreen;
+  padding: 3% 0;
+}
+
+#cart_count{
+  text-align: center;
+  padding: 0 0.9rem 0.1rem 0.9rem;
+  border-radius: 3rem;
+}
+
+.shopping-cart{
+  padding: 3% 0;
+}
+
+.cart-items + .cart-items{
+  padding: 2% 0;
+}
+
+.price-details h6{
+  padding: 3% 2%;
+}
